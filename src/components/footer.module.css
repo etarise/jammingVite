@@ -1,0 +1,17 @@
+.footer {
+  position: fixed;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  font: 5em;
+  font-weight: bold;
+  background-color: #083355;
+  padding: 10px;
+  width: 100%;
+  color: white;
+  height: 50px;
+}
+h1 {
+  text-align: center;
+  justify-content: center;
+}
