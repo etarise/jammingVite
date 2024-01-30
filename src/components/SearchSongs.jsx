@@ -4,7 +4,7 @@ import SearchBar from "./SearchBar";
 import MainContent from "./MainContent";
 
 export default function SearchSongs() {
-  const [artist, setArtist] = useState(""); //storing out to do as a string
+  const [artist, setArtist] = useState(""); //storing as  string
 
   return (
     <div>

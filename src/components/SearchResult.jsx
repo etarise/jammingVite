@@ -2,6 +2,7 @@ import DisplaySong from "./DisplaySong";
 import styles from "./result.module.css";
 export default function SearchResult({ artist, setArtist }) {
   //const artistToSearch ={props.ResultantArtist}
+
   const userList = [
     {
       id: "e34fd5z",
@@ -69,10 +70,8 @@ export default function SearchResult({ artist, setArtist }) {
   return (
     <div className={styles.ResultMainDiv}>
       <h2>Results</h2>
-      <hr />
-      <h2>{artist} </h2>
 
-      <hr />
+      <h2>{artist} </h2>
 
       {userList
         .filter((song) => song.artist === "Jane Tom")
@@ -83,10 +82,9 @@ export default function SearchResult({ artist, setArtist }) {
             songName={song.songName}
             artist={song.artist}
             album={song.album}
+            other={song.id}
           />
         ))}
-
-      <hr />
     </div>
   );
 }

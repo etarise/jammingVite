@@ -1,11 +1,8 @@
 import styles from "./searchbar.module.css";
 export default function SearchBar({ artist, setArtist }) {
-
-  
   //function to handle submit
   const handleSubmit = (e) => {
     e.preventDefault();
-   
   };
 
   return (
